@@ -1,5 +1,5 @@
 new Site();
-var socket = io('http://localhost:3008');
+var socket = io('http://elmsoftware.ru:3008/');
 $(document).ready(function () {
 	setTimeout(function () {
 		var map = new Map('map', 11, 53.378831, 58.980377);
